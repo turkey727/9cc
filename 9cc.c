@@ -4,7 +4,7 @@
 int main(int argc, char **argv)
 {
   if (argc != 2) {
-    fprintf(stderr, "引数の個数が正しくありません\n");
+    fprintf(stderr, "引数の個数が正しくありません.\n");
     return 1;
   }
 
@@ -28,7 +28,7 @@ int main(int argc, char **argv)
       continue;
     }
 
-    fprintf(stderr, "予期しない文字です: '%c'\n", *p);
+    fprintf(stderr, "予期しない文字です.: '%c'\n", *p);
     return 1;
   }
 
